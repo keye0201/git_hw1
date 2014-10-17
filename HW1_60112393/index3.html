@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<link href="stylesheet/index3.css" rel="stylesheet" type="text/css">
+	<title>LSJ Survey</title>
+</head>
+<body>
+<div id = "wrap">
+	<div id = "header">
+		<h1>상진's 잡동사니</h1>
+	</div>
+	<div id = "navbar">
+		<ul>
+			<li><a href="index.html">프로필</a></li>
+			<li><a href="index2.html">일기</a></li>
+			<li><a href="" class="selected">설문</a></li>
+		</ul>
+	</div>
+	<div id="line"></div>
+	<div id="content">
+		<div id="foreword">
+			<span>
+				저에 대한 여러분의 생각을 알아보려합니다.<br/>
+				설문에 참여해주시면 감사하겠습니다.
+			</span>
+		</div>
+		<div id="survey">
+			<form action="url" method="post">
+			<div class="respondent">
+				<div class="strapline"><b>응답자 정보</b></div>
+				<p>
+					<b>성별</b>
+					<span><input type="radio" name="sex" value="m">남자</span>
+					<span><input type="radio" name="sex" value="f">여자</span>
+				</p>
+				<p>
+					<b>나이</b>
+					<select name="age">
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+					</select>
+				</p>	
+				<p>
+					<b>사는곳</b>
+					<select name="area">
+						<option value="seoul">서울</option>
+						<option value="gyeonggi">경기도</option>
+						<option value="choongchung">충청도</option>
+						<option value="gangwon">강원도</option>
+						<option value="gyeongsang">경상도</option>
+						<option value="jeonla">전라도</option>
+						<option value="jeju">제주</option>
+					</select>
+				</p>
+			</div>
+			<div id="select">
+				<div class="strapline"><b>설문항목</b></div>
+				<ol>
+					<li>
+						<div class="question">1. 이 친구와 친하다?</div>
+						<div class="answer"><input type="radio" name="q1" value="good">그렇다</div>
+						<div class="answer"><input type="radio" name="q1" value="soso">그저그렇다</div>
+						<div class="answer"><input type="radio" name="q1" value="bad">아니다</div>
+					</li>
+					<li>
+						<div class="question">2. 이 친구와 친해지고 싶은가?</div>
+						<div class="answer"><input type="radio" name="q2" value="good">그렇다</div>
+						<div class="answer"><input type="radio" name="q2" value="soso">그저그렇다</div>
+						<div class="answer"><input type="radio" name="q2" value="bad">아니다</div>
+					</li>
+					<li>
+						<div class="question">3. 이 친구는 사교적인가?</div>
+						<div class="answer"><input type="radio" name="q3" value="good">그렇다</div>
+						<div class="answer"><input type="radio" name="q3" value="soso">그저그렇다</div>
+						<div class="answer"><input type="radio" name="q3" value="bad">아니다</div>
+					</li>
+					<li>
+						<div class="question">4. 이 친구는 성격이 좋은가?</div>
+						<div class="answer"><input type="radio" name="q4" value="good">그렇다</div>
+						<div class="answer"><input type="radio" name="q4" value="soso">그저그렇다</div>
+						<div class="answer"><input type="radio" name="q4" value="bad">아니다</div>
+					</li>
+					<li>
+						<div class="question">5. 이 친구가 배려를 잘해주는가?</div>
+						<div class="answer"><input type="radio" name="q5" value="good">그렇다</div>
+						<div class="answer"><input type="radio" name="q5" value="soso">그저그렇다</div>
+						<div class="answer"><input type="radio" name="q5" value="bad">아니다</div>
+					</li>
+					<li>
+						<div class="question">하고싶은 말</div>
+						<div class="answer"><textarea cols="30" rows="5" name="talk"> </textarea></div>
+					</li>
+				</ol>
+			</div>
+		</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
